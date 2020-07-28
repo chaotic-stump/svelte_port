@@ -28,17 +28,6 @@ module.exports = {
             },
           },
         },
-        {
-          test: /\.css$/,
-          use: [
-            /**
-             * MiniCssExtractPlugin doesn't support HMR.
-             * For developing, use 'style-loader' instead.
-             * */
-            prod ? MiniCssExtractPlugin.loader : "style-loader",
-            "css-loader",
-          ],
-        },
       ],
     },
     mode,
@@ -48,9 +37,6 @@ module.exports = {
       new webpack.DefinePlugin({
         "process.browser": true,
         "process.env.NODE_ENV": JSON.stringify(mode),
-      }),
-      new MiniCssExtractPlugin({
-        filename: prod ? "[name].[contenthash].css" : "[name].css",
       }),
     ].filter(Boolean),
     devtool: dev && "inline-source-map",

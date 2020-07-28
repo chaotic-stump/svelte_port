@@ -1,7 +1,6 @@
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
+<style lang="scss">
+	h1, p {
+		margin: 0 auto 1em;
 	}
 
 	h1 {
@@ -11,36 +10,20 @@
 		margin: 0 0 0.5em 0;
 	}
 
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
 	@media (min-width: 480px) {
 		h1 {
-			font-size: 4em;
+			font-size: 3em;
 		}
 	}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>seanparker.dev | Web Development specializing in Front End technologies</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Welcome to my portfolio site</h1>
 
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
+<p>Discovering my love for web development in college, I made the transition from journalist to full time coder in 2012. As you can see by my resumè, I've worked with startups, corporate, and public contracts since then.</p>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p>I'm a team player who quickly picks up on how your organization works together, and a self starter who independently gets things done.</p>
+

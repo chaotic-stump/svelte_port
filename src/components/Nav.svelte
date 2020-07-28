@@ -24,6 +24,7 @@
 	li {
 		display: block;
 		float: left;
+		text-transform: capitalize;
 	}
 
 	[aria-current] {
@@ -51,7 +52,8 @@
 <nav>
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
+		<li><a aria-current="{segment === 'portfolio' ? 'page' : undefined}" href="portfolio">portfolio</a></li>
+		<li><a aria-current="{segment === 'resume' ? 'page' : undefined}" href="resume">resume</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->

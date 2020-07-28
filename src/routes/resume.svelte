@@ -1,4 +1,4 @@
-<style lang="scss">
+<style>
   .subheading {
     text-decoration: underline;
   }

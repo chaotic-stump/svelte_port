@@ -1,15 +1,19 @@
 <style lang="scss">
   @import "../style/themes.scss";
 
-  .subheading {
-    text-decoration: underline;
-  }
-
   a {
     color: $link-color;
+    &:hover {
+      color: rebeccapurple;
+    }
   }
-  a:hover {
-    color: rebeccapurple;
+
+  .subheading {
+    text-decoration: underline;
+    margin: 1em 0 0;
+  }
+  .headline {
+    margin:.6em 0 .7em;
   }
   .headline,
   .education-section {
@@ -22,11 +26,11 @@
     font-weight: 300;
     margin: 1em 0 0;
   }
-
   .company-name {
     font-weight: 500;
     margin: 0.3em 0;
   }
+
 </style>
 
 <svelte:head>
@@ -38,8 +42,8 @@
 <div class="headline">
   <p class="byline">Full Stack – React/Vue and RoR flavors</p>
   <p class="resume-versions">
-    Download <a target="_blank" href="SeanParker.pdf">PDF</a> |
-    <a target="_blank" href="SeanParker.docx">DOC</a>
+    <a target="_blank" href="SeanParker.pdf">PDF</a> |
+    <a target="_blank" href="SeanParker.docx">DOC</a> versions
   </p>
 </div>
 

@@ -1,3 +1,5 @@
+# Welcome
+
 First it was WordPress, then React. I decided I wanted something more lightweight with a blog feature. So I looked at JAMstack of a Vue flavor (like Gridsome). It still felt too heavy for what I was looking for.
 
 I had heard of Svelte, but I kind of ignored it because of new framework fatigue. Then I learned Svelte is less a framework and more a bare bones compiler. I was sold. 

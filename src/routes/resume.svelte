@@ -1,13 +1,17 @@
-<style>
+<style lang="scss">
+  @import "./style/theme.scss";
+
   .subheading {
     text-decoration: underline;
   }
+
   a {
-    color:steelblue;
+    color: steelblue;
   }
   a:hover {
     color: rebeccapurple;
   }
+
   .headline,
   .education-section {
     display: flex;
@@ -19,6 +23,7 @@
     font-weight: 300;
     margin: 1em 0 0;
   }
+
   .company-name {
     font-weight: 500;
     margin: 0.3em 0;

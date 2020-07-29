@@ -15,8 +15,7 @@
   .headline {
     margin:.6em 0 .7em;
   }
-  .headline,
-  .education-section {
+  .headline {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -30,6 +29,22 @@
     font-weight: 500;
     margin: 0.3em 0;
   }
+
+  .education-section {
+    h3 {
+      margin: 0;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+    div{
+      margin:1em 0 0;
+    }
+    p {
+      margin: 0;
+      font-size: .9em;
+    }
+  }
+  
 
 </style>
 
@@ -202,8 +217,7 @@
 <section class="education-section">
   <div>
     <h3>
-      Bachelor of Science in Communication, emphasis in Computer Information
-      Science
+      Bachelor of Science in Communication, emphasis in Computer Information Science
     </h3>
     <p>Brigham Young University - Idaho – August 2008 to July 2012</p>
   </div>

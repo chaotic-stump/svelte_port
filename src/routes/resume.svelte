@@ -1,17 +1,16 @@
 <style lang="scss">
-  @import "./style/theme.scss";
+  @import "../style/themes.scss";
 
   .subheading {
     text-decoration: underline;
   }
 
   a {
-    color: steelblue;
+    color: $link-color;
   }
   a:hover {
     color: rebeccapurple;
   }
-
   .headline,
   .education-section {
     display: flex;
@@ -39,8 +38,8 @@
 <div class="headline">
   <p class="byline">Full Stack – React/Vue and RoR flavors</p>
   <p class="resume-versions">
-    Download <a href="SeanParker.pdf">PDF</a> |
-    <a href="SeanParker.docx">DOC</a>
+    Download <a target="_blank" href="SeanParker.pdf">PDF</a> |
+    <a target="_blank" href="SeanParker.docx">DOC</a>
   </p>
 </div>
 

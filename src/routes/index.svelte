@@ -22,7 +22,7 @@
 <p>
   Discovering my love for web development in college, I made the transition from
   journalist to full time coder in 2012. As you can see by my resumè, I've
-  worked with startups, corporate, and public contracts since then.
+  worked with startups, large corporations, and a few public contracts since then.
 </p>
 
 <p>

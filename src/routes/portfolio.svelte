@@ -87,34 +87,9 @@ let imgs = [
     alt: 'Latah Creek website',
   },
   {
-    filename: 'O-L-Door.jpg',
-    url: 'http://oandldoorsystems.com/',
-    alt: 'O & L Door Systems website',
-  },
-  {
-    filename: 'Reliable-Transportation.jpg',
-    url: 'http://www.reliabletrans.com/',
-    alt: 'Reliable Transportation website',
-  },
-  {
-    filename: 'Septic-Technologies.jpg',
-    url: 'http://septictechnologies.com/',
-    alt: 'Septic Technologies website',
-  },
-  {
-    filename: 'SWFNA.jpg',
-    url: 'http://swfna.com/',
-    alt: 'Southwest Florida Nuerosurgical & Rehab Associations website',
-  },
-  {
-    filename: 'The-Safety-Team.jpg',
-    url: 'http://thesafetyteaminc.com/',
-    alt: 'The Safety Team Inc website',
-  },
-  {
-    filename: 'Valley-Oak.jpg',
-    url: 'http://valleyoakdentalgroup.com/',
-    alt: 'Valley Oak Dental Group website',
+    filename: 'McCrea-PC.jpg',
+    url: 'http://mccreapc.com/',
+    alt: 'McCrea PC website',
   },
   {
     filename: 'Modern-Pump-Inc.jpg',
@@ -127,15 +102,46 @@ let imgs = [
     alt: 'MS Glass Outlet website',
   },
   {
+    filename: 'Mueller-Interiors.jpg',
+    url: 'https://www.muellerinteriors.com/',
+    alt: 'Mueller Interiors website',
+  },
+  {
+    filename: 'O-L-Door.jpg',
+    url: 'http://oandldoorsystems.com/',
+    alt: 'O & L Door Systems website',
+  },
+  {
+    filename: 'Reliable-Transportation.jpg',
+    url: 'http://www.reliabletrans.com/',
+    alt: 'Reliable Transportation website',
+  },
+  {
+    filename: 'The-Safety-Team.jpg',
+    url: 'http://thesafetyteaminc.com/',
+    alt: 'The Safety Team Inc website',
+  },
+  {
+    filename: 'Septic-Technologies.jpg',
+    url: 'http://septictechnologies.com/',
+    alt: 'Septic Technologies website',
+  },
+  {
+    filename: 'SWFNA.jpg',
+    url: 'http://swfna.com/',
+    alt: 'Southwest Florida Nuerosurgical & Rehab Associations website',
+  },
+  {
+    filename: 'Valley-Oak.jpg',
+    url: 'http://valleyoakdentalgroup.com/',
+    alt: 'Valley Oak Dental Group website',
+  },
+  {
     filename: 'Star-Brite.jpg',
     url: 'http://star-brite.com/',
     alt: 'Star Brite Learning program website',
   },
-  {
-    filename: 'McCrea-PC.jpg',
-    url: 'http://mccreapc.com/',
-    alt: 'McCrea PC website',
-  },
+
   {
     filename: 'Zobrist-Law.jpg',
     url: 'http://www.zoblaw.com/',

@@ -11,6 +11,7 @@
   .subheading {
     text-decoration: underline;
     margin: 1em 0 0;
+    color: #454545;
   }
   .headline {
     margin:.6em 0 .7em;
@@ -24,6 +25,7 @@
   .job-title {
     font-weight: 300;
     margin: 1em 0 0;
+    color:#454545;
   }
   .company-name {
     font-weight: 500;
@@ -35,6 +37,7 @@
       margin: 0;
       font-style: italic;
       font-size: 1.1em;
+      color: #454545;
     }
     div{
       margin:1em 0 0;

@@ -1,4 +1,5 @@
 <style lang="scss">
+  @import "../style/themes.scss";
   h1,
   p {
     margin: 0 auto 1em;
@@ -6,7 +7,8 @@
 
   @media (min-width: 480px) {
     h1 {
-      font-size: 3em;
+      font-size: 2.2em;
+      font-weight: 300;
     }
   }
 </style>

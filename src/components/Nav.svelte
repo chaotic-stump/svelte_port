@@ -3,6 +3,7 @@
 </script>
 
 <style lang="scss">
+  @import "../style/themes.scss";
   nav {
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);
     font-weight: 300;
@@ -35,6 +36,7 @@
     [aria-current] {
       position: relative;
       display: inline-block;
+      color: $accent;
     }
 
     [aria-current]::after {
@@ -42,7 +44,7 @@
       content: "";
       width: calc(100% - 1em);
       height: 3px;
-      background-color:gainsboro;
+      background-color:$accent;
       display: block;
       bottom: -1px;
     }
@@ -57,8 +59,9 @@
       font-weight: bold;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       padding: 0;
+        color: white;
       &:hover {
-        color: steelblue;
+        color: $accent;
       }
     }
   }

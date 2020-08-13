@@ -15,7 +15,7 @@
 
 <svelte:head>
   <title>
-    seanparker.dev | Web Development specializing in Front End technologies
+    SeanParker.dev | Web Development specializing in Front End technologies
   </title>
 </svelte:head>
 

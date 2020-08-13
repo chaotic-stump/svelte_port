@@ -8,7 +8,7 @@
 	@import "../style/global.scss";
 	main {
 		position: relative;
-		max-width: 56em;
+		max-width: 64em;
 		background-color: white;
 		padding: 2em;
 		margin: 0 auto;

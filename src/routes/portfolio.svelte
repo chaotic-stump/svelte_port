@@ -4,20 +4,21 @@ h2 {
 }
 .gallery {
   height: 65vh;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .img-link {
-  max-width: 26em;
   padding:.25em .5em;
   display: inline-block;
 }
 a {
   cursor: pointer;
     img {
-      width:25em;
-    &:hover {
-      width: 100%;
-    }
+      max-width:19em;
+  }
+}
+@media(min-width:400px) {
+  img {
+    width: 35em;
   }
 }
 </style>

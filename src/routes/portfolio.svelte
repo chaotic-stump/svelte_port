@@ -23,6 +23,10 @@ a {
 }
 </style>
 
+<svelte:head>
+  <title>SeanParker.dev | Portfolio of existing frontend work building custom responsive websites</title>
+</svelte:head>
+
 <script>
 import Index from "./blog/index.svelte";
 

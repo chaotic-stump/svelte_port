@@ -52,7 +52,7 @@
 </style>
 
 <svelte:head>
-  <title>Resume</title>
+  <title>SeanParker.dev | Resume of work in the public and private sectors</title>
 </svelte:head>
 
 <h1>Resume</h1>

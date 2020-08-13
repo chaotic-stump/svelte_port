@@ -6,6 +6,10 @@
 	}
 </script>
 
+<svelte:head>
+  <title>SeanParker.dev | Blog</title>
+</svelte:head>
+
 <script>
 	export let posts;
 </script>

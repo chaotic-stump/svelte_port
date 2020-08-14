@@ -72,7 +72,7 @@
   Inspector, Adobe Creative Suite
 </p>
 
-<h2 class="subheading">Work Experience</h2>
+<h2 class="subheading">Experience</h2>
 
 <div class="job-description">
   <h3 class="job-title">Full Stack Engineer</h3>
